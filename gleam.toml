@@ -1,0 +1,13 @@
+name = "lustre_carousel"
+version = "0.1.0"
+target="javascript"
+description = "Image Carousel for lustre"
+licences = ["MIT"]
+repository = { type = "github", user = "codemonkey76", repo = "lustre_carousel" }
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+lustre = ">= 4.3.0 and < 5.0.0"
+
+[dev-dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
